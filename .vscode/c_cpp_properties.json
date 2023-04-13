@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0",
+                "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32",
+                "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward",
+                "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+                "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+                "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+            ],
+            // "defines": [
+            //     "_DEBUG",
+            //     "UNICODE",
+            //     "__GNUC__=6",
+            //     "__cdecl=__attribute__((__cdecl__))"
+            // ],
+            "compilerPath": "C:/Users/Haowen/MinGW/bin/g++.exe",
+            // "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceRoot}",
+                    "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0",
+                    "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32",
+                    "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward",
+                    "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+                    "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+                    "c:/users/haowen/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
