@@ -19,5 +19,9 @@ int main(int argc, char **argv)
         std::cout << argv[i] << std::endl;
     }
     function1(100);
+
+    int i = 1;
+    long j = 2L;
+
     return 0;
 }

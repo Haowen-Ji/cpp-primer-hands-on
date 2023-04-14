@@ -60,3 +60,13 @@ if (condition == true){
     sum += i;
 }
 ```
+
+## Chapter 2: Variables and Basic Types
+
+Primitive Built-in Types
+* int 3
+* long 31241
+* bool -> true/false
+* float 3.21
+* double 25.123223 (frequent)
+* sign/unsigned
