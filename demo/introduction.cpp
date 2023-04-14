@@ -1,12 +1,23 @@
 #include <iostream>
 
-int function1()
+/*
+ *This is a small demo
+ */
+
+int function1(int argument)
 {
-    std::cout << "hello world in function 1" << std::endl;
+    std::cout << "hello world in function 1" << argument << std::endl;
+    return 1;
 }
 
-int main()
+// argument count
+// argument vector
+int main(int argc, char **argv)
 {
-    function1();
+    for (int i = 0; i < argc; i++)
+    {
+        std::cout << argv[i] << std::endl;
+    }
+    function1(100);
     return 0;
 }
