@@ -63,10 +63,29 @@ if (condition == true){
 
 ## Chapter 2: Variables and Basic Types
 
-Primitive Built-in Types
+1. Primitive Built-in Types
 * int 3
 * long 31241
 * bool -> true/false
 * float 3.21
 * double 25.123223 (frequent)
 * sign/unsigned
+
+int -> long
+int: -2^31 - 2^32-1
+long: -2^63 - 2^63-1
+
+type conversion
+
+literal 
+string = "hello world"
+int = 64
+long a = 31L;(L represents type)
+
+2. escape character
+   \t \n
+
+3. variable
+    Type Name = Value
+
+extern int i = 
