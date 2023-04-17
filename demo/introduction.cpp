@@ -1,10 +1,12 @@
 #include <iostream>
-// bank acount
+/* include seperate.h is needed for the link between two files*/
+#include "seperate.h"
+
+// bank acount 1~999999999
+// declaration & definition
 int bank_account_number = 1;
 
-/*
- *This is a small demo
- */
+/*This is a small demo*/
 
 int function1(int argument)
 {
@@ -12,10 +14,11 @@ int function1(int argument)
     return 1;
 }
 
-// argument count
-// argument vector
+/* This is for chapter 1
+// argument count and argument vector
 int main(int argc, char **argv)
 {
+
     for (int i = 0; i < argc; i++)
     {
         std::cout << argv[i] << std::endl;
@@ -23,7 +26,6 @@ int main(int argc, char **argv)
     function1(100);
 
     // escape character
-    //\t
     std::cout << "hello world\n";
 
     int i = 1;
@@ -32,5 +34,12 @@ int main(int argc, char **argv)
     double a = 3;
     bool isTrue = true;
 
+    return 0;
+}
+*/
+
+int main(int argc, char **argv)
+{
+    functionSeparate();
     return 0;
 }

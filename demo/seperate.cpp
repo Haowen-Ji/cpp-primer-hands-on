@@ -1,11 +1,10 @@
+#include <iostream>
 #include "seperate.h"
 
-seperate::seperate()
+// declaration
+extern int bank_account_number;
+
+void functionSeperate()
 {
-
-}
-
-seperate::~seperate()
-{
-
+    std::cout << "in seperate.cpp" << bank_account_number << std::endl;
 }
