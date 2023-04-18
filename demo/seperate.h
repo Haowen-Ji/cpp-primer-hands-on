@@ -3,6 +3,6 @@
 
 #pragma once
 
-void functionSeparate();
+void functionSeperate();
 
 #endif

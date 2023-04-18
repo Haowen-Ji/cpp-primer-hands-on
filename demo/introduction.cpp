@@ -2,6 +2,8 @@
 /* include seperate.h is needed for the link between two files*/
 #include "seperate.h"
 
+using std::cout;
+using std::endl;
 // bank acount 1~999999999
 // declaration & definition
 int bank_account_number = 1;
@@ -38,8 +40,24 @@ int main(int argc, char **argv)
 }
 */
 
+/* This is for Chapter 2-2
 int main(int argc, char **argv)
 {
-    functionSeparate();
+    functionSeperate();
     return 0;
+}
+*/
+
+int main(int argc, char **argv)
+{
+
+    int local_price = 12;
+
+    // reference
+    int &replace_price = local_price;
+    for (int i = 0; i < 10; i++)
+    {
+        local_price = i;
+        cout << replace_price << endl;
+    }
 }

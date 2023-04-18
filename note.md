@@ -88,4 +88,14 @@ long a = 31L;(L represents type)
 3. variable
     Type Name = Value
 
+```cpp
 extern int i = 
+```
+
+### Chapter 2-3:
+> Compound Type
+
+* reference
+  * bind to a local variable
+* pointer
+* 
