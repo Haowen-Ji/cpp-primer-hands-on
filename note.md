@@ -92,10 +92,14 @@ long a = 31L;(L represents type)
 extern int i = 
 ```
 
-### Chapter 2-3:
+### Chapter 2.3-2.5:
 > Compound Type
 
 * reference
   * bind to a local variable
+  * cannot bind lieteral/ constant
 * pointer
+
+ref VS pointer
+* ref-> initilize
 * 

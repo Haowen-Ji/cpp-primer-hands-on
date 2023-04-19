@@ -52,12 +52,33 @@ int main(int argc, char **argv)
 {
 
     int local_price = 12;
-
+    // constant
+    const int &second_price = 13;
     // reference
     int &replace_price = local_price;
+    cout << &replace_price << endl;
+    cout << &second_price << endl;
+    cout << &local_price << endl;
+
+    // string a = "hello";
+    // string &b = "hello"; // this one is wrong, need const char *
+    // string &c = a;
+
     for (int i = 0; i < 10; i++)
     {
         local_price = i;
         cout << replace_price << endl;
     }
+
+    int a = 15;
+
+    // pointer, pointing at int
+    int *pa = &a;
+
+    cout << &a << endl;
+    cout << pa << endl;
+
+    *pa = 20;
+    cout << *pa << endl;
+    cout << a << endl;
 }
