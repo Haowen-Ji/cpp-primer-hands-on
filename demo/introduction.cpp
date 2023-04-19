@@ -10,13 +10,14 @@ int bank_account_number = 1;
 
 /*This is a small demo*/
 
+/* This is for chapter 1
+
 int function1(int argument)
 {
-    // std::cout << "hello world in function 1" << argument << std::endl;
+    std::cout << "hello world in function 1" << argument << std::endl;
     return 1;
 }
 
-/* This is for chapter 1
 // argument count and argument vector
 int main(int argc, char **argv)
 {
@@ -48,6 +49,7 @@ int main(int argc, char **argv)
 }
 */
 
+/* This is for Chapter 2-3
 int main(int argc, char **argv)
 {
 
@@ -82,3 +84,24 @@ int main(int argc, char **argv)
     cout << *pa << endl;
     cout << a << endl;
 }
+*/
+
+void function(const int value)
+{
+    // the value cannot be change, it would return error
+    value = 222;
+    cout << value << endl;
+}
+
+/* Chapter 2-4
+int main(int argc, char **argv)
+{
+    // constant cannot be changed
+    // constant needs initilize
+    const int constant_value = 123;
+    int value = 123;
+    function(value);
+    value = 4444;
+    return 0;
+}
+*/

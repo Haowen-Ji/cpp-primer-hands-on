@@ -93,6 +93,7 @@ extern int i =
 ```
 
 ### Chapter 2.3-2.5:
+
 > Compound Type
 
 * reference
@@ -101,5 +102,20 @@ extern int i =
 * pointer
 
 ref VS pointer
-* ref-> initilize
-* 
+* ref needs initilize 
+  
+#### Constant
+
+* contant with reference
+  * the const value can be binded to a non-const value (non-const -> const)
+  * i.e.
+    ```C++
+    int i = 1;
+    const int& ri = i;
+    ```
+  * const !-> non-const 
+    ```C++
+    const int i = 1;
+    int &ri = i;
+    error
+    ```
