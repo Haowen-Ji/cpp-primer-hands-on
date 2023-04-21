@@ -106,7 +106,7 @@ ref VS pointer
   
 #### Constant
 
-* contant with reference
+* constant with reference
   * the const value can be binded to a non-const value (non-const -> const)
   * i.e.
     ```C++
@@ -118,4 +118,36 @@ ref VS pointer
     const int i = 1;
     int &ri = i;
     error
+    ```
+* constant with pointer
+  * constant is a constrain, that let the object it desceribed unchanged
+  * i.e. 
+    ```C++
+    const int value = 123;
+    // low-level constant
+    const int* pvalue = & value;
+    ```
+    *pvalue cannot change, while pvalue can be changed, since the pointer can point to another value
+
+    ```C++
+    // top-level constant 
+    const int* const pvalue = & value;
+    ```
+    both value(*pvalue) and pointer(pvalue) cannot be changed.
+
+### Type Alias
+* using
+* auto (with requirment) 
+    ```C++
+    // int
+    auto abc = 3 +5;
+    int function(){return 123;}
+    auto abc = function();
+    ```
+* decltype
+    ```C++
+    // int
+    auto abc = 3 +5;
+    int function(){return 123;}
+    auto abc = function();
     ```
